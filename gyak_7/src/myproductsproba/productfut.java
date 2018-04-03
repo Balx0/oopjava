@@ -36,6 +36,28 @@ public class productfut {
 	Product product2 = b2;
 	System.out.println("A b2 adatai:" + product2.toString());
 	
+	
+	
+	System.out.println(" ");
+	
+	Bread bread2 = new Bread("bread2", 140, 20, 3);
+	
+
+	
+	boolean res = Bread.BreadPriceCompare((Bread)product2, bread2);
+	if(res)
+		System.out.println("A product2 ára a nagyobb");
+	else
+		System.out.println("A bread2 ára a nagyobb");
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 
 	
